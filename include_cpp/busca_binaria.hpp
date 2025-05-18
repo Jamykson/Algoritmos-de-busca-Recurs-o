@@ -1,4 +1,7 @@
 #pragma once
-#include <vector>
 
-int busca_binaria(const std::vector<int>& arr, int alvo);
+// Protótipo da função principal
+int busca_binaria(int n);
+
+// Protótipo da simulação da API
+bool isBadVersion(int version);

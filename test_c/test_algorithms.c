@@ -24,6 +24,8 @@ int main() {
 
     //Eexemplo de chamada da macro RUN_TEST
     //RUN_TEST("Titulo do teste", nome_da_funcao(entradas da funcao), resposta_esperada);
+    
+    
     RUN_TEST("Busca ordenada", conta_especialidades_distintas(), 0);
     RUN_TEST("Busca binaria", busca_binaria(), 0);
     RUN_TEST("Recursao", recursao(), 0);

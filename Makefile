@@ -13,12 +13,13 @@ SRCS_CPP := $(wildcard src_cpp/*.cpp)
 all: test_c test_cpp
 
 test_c:
-	$(CC) $(CFLAGS) $(SRCS_C) test_c/test_algorithms.c -o test_c
-	./test_c
+	$(CC) $(CFLAGS) $(SRCS_C) test_c/test_algorithms.c -o bin/teste_c
+	./bin/teste_c
 
 test_cpp:
-	$(CXX) $(CXXFLAGS) $(SRCS_CPP) test_cpp/test_algorithms.cpp -o test_cpp
-	./test_cpp
+	mkdir -p bin
+	$(CXX) $(CXXFLAGS) $(SRCS_CPP) test_cpp/test_algorithms.cpp -o bin/teste_cpp
+	./bin/teste_cpp
 
 clean:
-	rm -f test_c test_cpp
+	rm -f bin/teste_c bin/teste_cpp
