@@ -1,7 +1,5 @@
 #include "busca_binaria.hpp"
 
-// Simulação da API para fins de teste
-// Altere o valor de `bad` para testar diferentes casos
 const int bad = 4;
 
 bool isBadVersion(int version) {

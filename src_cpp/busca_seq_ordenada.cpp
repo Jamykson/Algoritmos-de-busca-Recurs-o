@@ -1,5 +1,5 @@
 #include "busca_seq_ordenada.hpp"
-#include <algorithm> // para std::swap
+#include <algorithm> 
 
 void bubble_sort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
