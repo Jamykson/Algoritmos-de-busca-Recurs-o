@@ -1,5 +1,7 @@
-# Algoritmos-de-busca-Recurs-o
-Algoritmos de busca + Recursão
+# Algoritmos-de-busca-Recursao
+Especificação das funções implementadas,descrevendo claramente 
+o funcionamento de cada uma, os parâmetros esperados e as instruções 
+de uso dos scripts fornecidos.
 
 1. Busca Binária para Versão Ruim
 Arquivos: busca_binaria.hpp, busca_binaria.cpp
@@ -43,6 +45,7 @@ int conta_especialidades_distintas(int arr[], int n)
 3. Contagem Recursiva de Ocorrências de Caracteres em Strings
 Arquivos: recursao.hpp, recursao.cpp
 Função:
+
 int recursao(const std::string &str, char alvo)
     Descrição: Conta quantas vezes o caractere alvo aparece na string str, utilizando recursão.
     Parâmetros: str (const referência para std::string): string na qual será feita a contagem, alvo (char): caractere cuja ocorrência será contada.
