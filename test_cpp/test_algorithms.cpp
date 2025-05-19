@@ -15,7 +15,7 @@
 
 int main() {
     //Vetor desordenado <POPULAR>
-    std::vector<int> arr1 = {};
+    //std::vector<int> arr1 = {};
     //Tamanho do vetor <ALTERAR>
     //int n1 = 0;
     //Vetor ordenado <POPULAR>
@@ -25,7 +25,8 @@ int main() {
 
     //Eexemplo de chamada da macro RUN_TEST
     //RUN_TEST("Titulo do teste", nome_da_funcao(entradas das funcao), resposta_esperada);
-    //RUN_TEST("Busca ordenada", conta_especialidades_distintas(0), 0);
+    int arr1[] = {4, 2, 1, 4, 2, 1};
+    RUN_TEST("Especialidades distintas (ex1)", conta_especialidades_distintas(arr1, 6), 3);
     RUN_TEST("Busca binaria", busca_binaria(5), 4);
     RUN_TEST("Recursiva", recursao("banana", 'a'), 3);
 
