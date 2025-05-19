@@ -1,3 +1,4 @@
 #pragma once
+#include <string>
 
-int recursao(int n);
+int recursao(const std::string &str, char alvo);

@@ -27,7 +27,7 @@ int main() {
     //RUN_TEST("Titulo do teste", nome_da_funcao(entradas das funcao), resposta_esperada);
     //RUN_TEST("Busca ordenada", conta_especialidades_distintas(0), 0);
     RUN_TEST("Busca binaria", busca_binaria(5), 4);
-    //RUN_TEST("Recursao", recursao(5), 0);
+    RUN_TEST("Recursiva", recursao("banana", 'a'), 3);
 
     return 0;
 }
